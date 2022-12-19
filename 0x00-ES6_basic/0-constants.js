@@ -9,5 +9,3 @@ export const taskNext = () => {
 
   return combination;
 };
-
-// module.exports = { taskFirst, taskNext };
