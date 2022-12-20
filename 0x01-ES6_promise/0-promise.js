@@ -1,3 +1,3 @@
-const getResponseFromAPI = new Promise();
-
-module.exports = { getResponseFromAPI };
+export default function getResponseFromAPI() {
+  return new Promise(() => {});
+}
