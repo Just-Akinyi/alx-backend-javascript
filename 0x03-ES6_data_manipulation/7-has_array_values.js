@@ -1,8 +1,3 @@
-export default function hasValuesFromArray(set, array) {
-  for (let i = 0; i < array.length; i += 1) {
-    if (!set.has(array[i])) {
-      return false;
-    }
-  }
-  return true;
+export default function hasValuesFromArray(set, arr) {
+  return arr.reduce((prev, curr) => prev && set.has(curr), true);
 }
